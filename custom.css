@@ -1,0 +1,28 @@
+.mapsection{
+	margin-top: 3em;
+}
+
+.mappa{
+	width: 100%;
+	height: 800px;
+}
+
+.firma{
+	font-style: italic;
+	text-align: right;
+}
+
+.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
+    background-color: #e3ded4;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.mappa{
+		height: 400px;
+	}
+	
+	.navbarmobilecustom{
+		height: 40%;
+	}
+}
