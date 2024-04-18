@@ -78,7 +78,6 @@ function resize() {
     if (h < 500) { h = 500; }
     if (self == top) {
         console.log("resize to: " + h)
-        return
     }
     parent.postMessage({ "function": "resize", "name": "iframe", "h": h }, "https://zone.agesci.it/");
 }

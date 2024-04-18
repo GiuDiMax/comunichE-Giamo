@@ -32,10 +32,10 @@ document.write("    <link href=\"assets\/vendor\/remixicon\/remixicon.css\" rel=
 document.write("    <link href=\"assets\/vendor\/swiper\/swiper-bundle.min.css\" rel=\"stylesheet\">");
 document.write("");
 document.write("    <!-- Template Main CSS File -->");
-document.write("    <link href=\"assets\/css\/style.css?v=1.0.2\" rel=\"stylesheet\">");
+document.write("    <link href=\"assets\/css\/style.css?v=1.0.3\" rel=\"stylesheet\">");
 document.write("");
 document.write("    <!-- Comunichegiamo Main CSS File -->");
-document.write("    <link href=\"custom.css?v=1.3\" rel=\"stylesheet\">");
+document.write("    <link href=\"custom.css?v=1.0.3\" rel=\"stylesheet\">");
 document.write("");
 document.write("    <link rel=\"stylesheet\" href=\"https:\/\/unpkg.com\/leaflet@1.9.4\/dist\/leaflet.css\"\/>");
 document.write("    <script src=\"https:\/\/unpkg.com\/leaflet@1.9.4\/dist\/leaflet.js\"><\/script>");
