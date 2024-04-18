@@ -1,4 +1,4 @@
-const baseUrl = "/comunichE-Giamo"
+﻿const baseUrl = "/comunichE-Giamo"
 
 function leafmap(){
 	map = L.map('map',
