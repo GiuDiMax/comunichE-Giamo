@@ -1,3 +1,4 @@
+const baseUrl = "/comunichE-Giamo"
 document.write("<!DOCTYPE html>");
 document.write("<html lang=\"it\">");
 document.write("");
@@ -52,11 +53,11 @@ document.write("        <!--<a href=\"index.html\" class=\"logo me-auto\"><img s
 document.write("");
 document.write("        <nav id=\"navbar\" class=\"navbar navbarmobilecustom\">");
 document.write("            <ul>");
-document.write("                <li><a class=\"nav-link scrollto active\" href=\"#hero\">Home<\/a><\/li>");
-document.write("                <li><a class=\"nav-link scrollto\" href=\"#portfolio\">Scatti<\/a><\/li>");
-document.write("                <li><a class=\"nav-link scrollto\" href=\"#team\">Chi siamo<\/a><\/li>");
-document.write("                <li><a class=\"nav-link scrollto\" href=\"#footer\">Social<\/a><\/li>");
-document.write("                <li><a class=\"getstarted scrollto\" href=\"#about\">La nostra IMPRESA<\/a><\/li>");
+document.write("                <li><a class=\"nav-link scrollto active\" href=\""+baseUrl+"\#hero\">Home<\/a><\/li>");
+document.write("                <li><a class=\"nav-link scrollto\" href=\""+baseUrl+"\#portfolio\">Scatti<\/a><\/li>");
+document.write("                <li><a class=\"nav-link scrollto\" href=\""+baseUrl+"\#team\">Chi siamo<\/a><\/li>");
+document.write("                <li><a class=\"nav-link scrollto\" href=\""+baseUrl+"\#footer\">Social<\/a><\/li>");
+document.write("                <li><a class=\"getstarted scrollto\" href=\""+baseUrl+"\#about\">La nostra IMPRESA<\/a><\/li>");
 document.write("            <\/ul>");
 document.write("            <i class=\"bi bi-list mobile-nav-toggle\"><\/i>");
 document.write("        <\/nav><!-- .navbar -->");

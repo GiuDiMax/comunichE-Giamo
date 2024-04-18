@@ -1,6 +1,4 @@
-﻿const baseUrl = "/comunichE-Giamo"
-
-function leafmap(){
+﻿function leafmap(){
 	map = L.map('map',
 	{
 		zoomControl: false,
