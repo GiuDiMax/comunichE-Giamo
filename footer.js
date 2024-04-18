@@ -76,6 +76,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
 function resize() {
     let h = document.body.clientHeight + 200;
     if (h < 500) { h = 500; }
-    if (self == top) { return; }
-    parent.postMessage({ "function": "resize", "name": "iframe", "h": h }, "https://zone.agesci.it/baricentro");
+    if (self == top) {
+        console.log("resize to: " + h)
+        return
+    }
+    parent.postMessage({ "function": "resize", "name": "iframe", "h": h }, "https://zone.agesci.it/");
 }
