@@ -80,5 +80,6 @@ function resize() {
         console.log("resize to: " + h)
         return
     }
-    parent.postMessage({ "function": "resize", "name": "iframe", "h": h }, "https://zone.agesci.it/");
+    return
+    //parent.postMessage({ "function": "resize", "name": "iframe", "h": h }, "https://zone.agesci.it/");
 }
