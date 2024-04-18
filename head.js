@@ -32,7 +32,7 @@ document.write("    <link href=\"assets\/vendor\/remixicon\/remixicon.css\" rel=
 document.write("    <link href=\"assets\/vendor\/swiper\/swiper-bundle.min.css\" rel=\"stylesheet\">");
 document.write("");
 document.write("    <!-- Template Main CSS File -->");
-document.write("    <link href=\"assets\/css\/style.css\" rel=\"stylesheet\">");
+document.write("    <link href=\"assets\/css\/style.css?v=1.0.1\" rel=\"stylesheet\">");
 document.write("");
 document.write("    <!-- Comunichegiamo Main CSS File -->");
 document.write("    <link href=\"custom.css?v=1.3\" rel=\"stylesheet\">");
