@@ -27,7 +27,7 @@
 	marker.bindPopup("<b>Museo degli attrezzi</b><br>Un museo privato locale <a href='"+baseUrl+"/museolocale.html'>Scopri di più</a>");
 
 	marker = L.marker([40.584236109645275, 16.759024364097627]).addTo(map);
-	marker.bindPopup("<b>Ulivo pensante</b><br>Ulivo con una faccia munita di occhi, naso e sopraciglio <a href='"+baseUrl+"/museolocale.html'>Scopri di più</a>");
+	marker.bindPopup("<b>Ulivo pensante</b><br>Ulivo con una faccia munita di occhi, naso e sopraciglio <a href='"+baseUrl+"/ulivopensante.html'>Scopri di più</a>");
 }
 
 
