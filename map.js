@@ -11,11 +11,12 @@
 		maxZoom: 17,
 	}).addTo(map);
 	
-	var marker = L.marker([40.583382253095984, 16.7503409628624]).addTo(map);
-	marker.bindPopup("<b>Parrocchia Gesù Risorto</b><br>Prova test 123, <a href='"+baseUrl+"/gravinarivolta.html'>Scopri di più</a>");
-	
-	marker = L.marker([40.57984587469258, 16.761520409592844]).addTo(map);
-	marker.bindPopup("<b>Gravina di Rivolta</b><br>Prova test 123, <a href='"+baseUrl+"/gravinarivolta.html'>Scopri di più</a>");
+	var marker = L.marker([40.57368814705567, 16.756674491077295]).addTo(map);
+	marker.bindPopup("<b>Kaleidoscopio Lab</b><br>Studio fotografico, <a href='"+baseUrl+"/kaleidoscopio.html'>Scopri di più</a>");
+
+
+	marker = L.marker([40.5794886,16.7571049]).addTo(map);
+	marker.bindPopup("<b>MuPa</b><br>Prova test 123, <a href='"+baseUrl+"/mupa.html'>Scopri di più</a>");
 }
 
 
