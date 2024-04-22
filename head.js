@@ -54,7 +54,7 @@ document.write("");
 document.write("        <nav id=\"navbar\" class=\"navbar navbarmobilecustom\">");
 document.write("            <ul>");
 document.write("                <li><a class=\"nav-link scrollto active\" href=\""+baseUrl+"\#hero\">Home<\/a><\/li>");
-document.write("                <li><a class=\"nav-link scrollto\" href=\""+baseUrl+"\#portfolio\">Scatti<\/a><\/li>");
+document.write("                <li><a class=\"nav-link scrollto\" href=\""+baseUrl+"\#portfolio\">Disegni e Scatti<\/a><\/li>");
 document.write("                <li><a class=\"nav-link scrollto\" href=\""+baseUrl+"\#team\">Chi siamo<\/a><\/li>");
 document.write("                <li><a class=\"nav-link scrollto\" href=\""+baseUrl+"\#footer\">Social<\/a><\/li>");
 document.write("                <li><a class=\"getstarted scrollto\" href=\""+baseUrl+"\#about\">La nostra IMPRESA<\/a><\/li>");
