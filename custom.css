@@ -1,10 +1,15 @@
+.portfolio-description, .portfolio-description p{
+	text-align: justify !important;
+	hyphens: auto !important
+}
+
 .mapsection{
 	margin-top: 3em;
 }
 
 .mappa{
 	width: 100%;
-	height: 800px;
+	height: 600px;
 }
 
 .firma{
@@ -23,6 +28,11 @@
 	background-repeat: repeat;
 	background-size: cover;
 	background-position: center;
+}
+
+.elenco ul{
+	list-style-type: none;
+	font-size: 1.5em;
 }
 
 
